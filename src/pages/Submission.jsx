@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-
+import { Link } from "react-router-dom";
 import utils from "../lib/utils";
 
 function Submission() {
@@ -12,9 +12,9 @@ function Submission() {
         </h1>
         <p className="text-lg">
           Your Form has been submitted successfully. You can Check{" "}
-          <a href={utils.entriesUrl} className="text-blue-800 underline">
+          <Link to={utils.entriesUrl} className="text-blue-800 underline">
             Here
-          </a>
+          </Link>
         </p>
       </div>
     </div>
