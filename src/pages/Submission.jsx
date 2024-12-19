@@ -12,7 +12,7 @@ function Submission() {
         </h1>
         <p className="text-lg">
           Your Form has been submitted successfully. You can Check{" "}
-          <a href={utils.entriesUrl} className="text-bg-500 underline">
+          <a href={utils.entriesUrl} className="text-blue-800 underline">
             Here
           </a>
         </p>
