@@ -30,7 +30,7 @@ function Form() {
       mode: "no-cors",
       body: formData,
     }).then(() => {
-      console.log("GO SEE", utils.entriesUrl);
+      console.log("Form Submitted Successfully", utils.entriesUrl);
     });
   };
 
