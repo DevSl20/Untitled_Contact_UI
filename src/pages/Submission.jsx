@@ -1,8 +1,9 @@
 import Header from "@/components/Header";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import utils from "../lib/utils";
 
 function Submission() {
+  const location = useLocation();
   return (
     <div className="min-h-screen w-full bg-zinc-50 px-4 py-2 md:px-8 md:py-4">
       <Header />
